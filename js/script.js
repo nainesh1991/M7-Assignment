@@ -48,7 +48,7 @@ form.addEventListener('submit', (e) => {
     // CREATE THE DELETE BUTTON
     let cl_Delete_Btn = tr.insertCell();
     let deleteBtn = document.createElement('button')
-    let textDelete = document.createTextNode('DELETE')
+    let textDelete = document.createTextNode('X')
     deleteBtn.appendChild(textDelete)
     cl_Delete_Btn.appendChild(deleteBtn)
 
